@@ -128,7 +128,7 @@ if uploaded:
             time.sleep(0.02)
             progress.progress(pct)
 
-    # Fake score
+    # Future Backend Integration
     score = random.randint(0, 99)
     healthy_label, sick_label = labels[condition]
     result_label = healthy_label if score < 50 else sick_label
