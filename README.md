@@ -23,3 +23,11 @@ Our vision is to revolutionize the healthcare experience by harnessing the power
 - **Continuous Model Improvement**: Regularly update AI models based on new medical research, patient feedback, and clinical data to enhance accuracy and reliability.
 - **Data Privacy and Security**: Implement advanced data protection protocols to ensure patient confidentiality and compliance with healthcare regulations (e.g., HIPAA).
 - **Global Accessibility**: Optimize the system for use in under-resourced regions where access to professional medical care is limited.
+
+### Model Overview
+
+#### Brain Tumor Detection
+
+The Brain Tumor Detection component of our AI healthcare system uses a Convolutional Neural Network (CNN) to automatically classify brain MRI images as either "tumor" or "healthy." Traditional manual diagnosis methods are often slow, expensive, and prone to error; this model addresses these issues by providing fast, reliable, and scalable results. Using a carefully curated and labeled dataset, the MRI images undergo preprocessing steps like resizing, normalization, and data augmentation to improve the model’s ability to generalize. The CNN architecture features multiple convolutional and pooling layers to extract meaningful features, followed by fully connected layers and a softmax output for final classification.
+
+Trained over 25 epochs, the model achieved a high training accuracy of 97.95% and a validation accuracy of 91.08%, demonstrating strong performance without significant overfitting. Techniques such as dropout and batch normalization were employed to ensure robust learning. By automating the detection of brain tumors, this solution reduces diagnosis time, supports doctors with instant examination results, and improves patient outcomes by enabling earlier intervention.
