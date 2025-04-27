@@ -1,4 +1,7 @@
 # NeuraHealth 
+
+![image](https://github.com/user-attachments/assets/298025f5-cd7c-44d8-99ff-23e44de9ea45)
+
 ## Problem Statement
 
 In today's healthcare environment, patients often face significant delays and high costs when seeking medical diagnoses, particularly in the United States. Long wait times for doctor appointments and expensive consultations make timely medical care difficult for many individuals. Additionally, many non-serious cases unnecessarily burden healthcare providers, leading to inefficient use of medical resources.
