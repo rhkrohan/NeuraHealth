@@ -30,7 +30,7 @@ Our vision is to revolutionize the healthcare experience by harnessing the power
 ## Model Overview:
 
 ### Brain Tumor Detection;
-
+![Brain Tumor Prediction Visualization](https://private-user-images.githubusercontent.com/75565964/361142208-b3a41b08-7f53-4dfa-a161-78b60ac35b2a.jpg?raw=true)
 The Brain Tumor Detection model leverages a Convolutional Neural Network (CNN) to classify brain MRI images into two categories: "tumor" and "healthy." This approach addresses the limitations of traditional manual diagnosis by offering a fast, accurate, and scalable solution. The system follows a structured workflow to ensure high reliability and clinical relevance:
 
 - **Dataset Preparation:**
