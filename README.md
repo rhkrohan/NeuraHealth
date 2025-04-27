@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/NeuraHealth-Diabetes%20Prediction-brightgreen?style=for-the-badge&logo=github" alt="NeuraHealth Badge">
-</p>
 # NeuraHealth 
 ## Problem Statement
 
