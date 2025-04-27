@@ -24,9 +24,9 @@ Our vision is to revolutionize the healthcare experience by harnessing the power
 - **Data Privacy and Security**: Implement advanced data protection protocols to ensure patient confidentiality and compliance with healthcare regulations (e.g., HIPAA).
 - **Global Accessibility**: Optimize the system for use in under-resourced regions where access to professional medical care is limited.
 
-### Model Overview
+## Model Overview:
 
-#### Brain Tumor Detection
+### Brain Tumor Detection;
 
 The Brain Tumor Detection model leverages a Convolutional Neural Network (CNN) to classify brain MRI images into two categories: "tumor" and "healthy." This approach addresses the limitations of traditional manual diagnosis by offering a fast, accurate, and scalable solution. The system follows a structured workflow to ensure high reliability and clinical relevance:
 
@@ -51,3 +51,22 @@ The Brain Tumor Detection model leverages a Convolutional Neural Network (CNN) t
   - **Validation Loss:** 0.2556
 
 By automating brain tumor detection, this model significantly reduces diagnosis time, supports radiologists with quick decision-making, and improves patient outcomes through earlier treatment interventions.
+
+### Diabetes Analysis Prediction;
+
+The Diabetes Analysis Prediction model predicts the likelihood of diabetes using several regression models based on a Kaggle dataset with 521 observations and 16 symptoms. After preprocessing (categorical encoding using `OrdinalEncoder`) and splitting the data (80:20), five models were trained: Multiple Linear Regression, Polynomial Regression (degree 2), Support Vector Regression (SVR), Decision Tree Regression, and Random Forest Regression. The models were evaluated based on R² score and a custom accuracy function to identify the most effective technique for prediction.
+
+- **Dataset:** 521 observations, 16 categorical symptom features
+- **Preprocessing:** Encoding "Yes"/"No" to 1/0, train-test split (80:20)
+- **Models Used:** 
+  - Multiple Linear Regression
+  - Polynomial Regression
+  - Support Vector Regression (SVR)
+  - Decision Tree Regression
+  - Random Forest Regression
+- **Evaluation Metrics:** R² score, prediction accuracy (%)
+- **Key Findings:** 
+  - SVR achieved the highest R² score (0.9461) and 100% accuracy
+  - Decision Tree Regression also performed strongly (R² = 0.878, 97.11% accuracy)
+  - Polynomial and Multiple Linear Regression models showed lower performance
+- **Conclusion:** SVR is the most effective model for this dataset, capturing complex relationships in the features, while Decision Tree Regression offers a strong interpretable alternative.
