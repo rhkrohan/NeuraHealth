@@ -1,0 +1,2 @@
+Pneumonia Chest X Ray Data Set: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+Brain Tumor Detection Dataset: https://drive.google.com/drive/folders/1exYHJSvmluYONNGxJoTXtDI4fkiWKspB
