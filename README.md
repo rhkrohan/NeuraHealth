@@ -28,6 +28,26 @@ Our vision is to revolutionize the healthcare experience by harnessing the power
 
 #### Brain Tumor Detection
 
-The Brain Tumor Detection component of our AI healthcare system uses a Convolutional Neural Network (CNN) to automatically classify brain MRI images as either "tumor" or "healthy." Traditional manual diagnosis methods are often slow, expensive, and prone to error; this model addresses these issues by providing fast, reliable, and scalable results. Using a carefully curated and labeled dataset, the MRI images undergo preprocessing steps like resizing, normalization, and data augmentation to improve the model’s ability to generalize. The CNN architecture features multiple convolutional and pooling layers to extract meaningful features, followed by fully connected layers and a softmax output for final classification.
+The Brain Tumor Detection model leverages a Convolutional Neural Network (CNN) to classify brain MRI images into two categories: "tumor" and "healthy." This approach addresses the limitations of traditional manual diagnosis by offering a fast, accurate, and scalable solution. The system follows a structured workflow to ensure high reliability and clinical relevance:
 
-Trained over 25 epochs, the model achieved a high training accuracy of 97.95% and a validation accuracy of 91.08%, demonstrating strong performance without significant overfitting. Techniques such as dropout and batch normalization were employed to ensure robust learning. By automating the detection of brain tumors, this solution reduces diagnosis time, supports doctors with instant examination results, and improves patient outcomes by enabling earlier intervention.
+- **Dataset Preparation:**
+  - MRI images are labeled as either "tumor" or "healthy."
+  - Images undergo preprocessing steps including resizing, normalization, and data augmentation to enhance generalization.
+
+- **CNN Architecture:**
+  - Multiple convolutional layers extract hierarchical features such as edges, textures, and complex patterns.
+  - Max-pooling layers reduce spatial dimensions, improving computational efficiency.
+  - Fully connected dense layers interpret the extracted features for final classification.
+  - Softmax activation in the output layer provides class probabilities.
+
+- **Training Strategy:**
+  - Model trained over **25 epochs** with a balanced split into training, validation, and testing datasets.
+  - Techniques such as **dropout** and **batch normalization** were used to prevent overfitting and stabilize learning.
+
+- **Performance Metrics:**
+  - **Training Accuracy:** 97.95%
+  - **Validation Accuracy:** 91.08%
+  - **Training Loss:** 0.0716
+  - **Validation Loss:** 0.2556
+
+By automating brain tumor detection, this model significantly reduces diagnosis time, supports radiologists with quick decision-making, and improves patient outcomes through earlier treatment interventions.
