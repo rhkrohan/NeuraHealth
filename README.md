@@ -1,4 +1,4 @@
-# NeuraHealth 
+# ☤ NeuraHealth - AI HealthCare Assistant
 
 ![image](https://github.com/user-attachments/assets/298025f5-cd7c-44d8-99ff-23e44de9ea45)
 
